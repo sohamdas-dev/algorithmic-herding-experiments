@@ -1,0 +1,1093 @@
+{
+  "nominal": {
+    "policy": "randomized",
+    "training_target_met": true,
+    "quality_service_eligible": true
+  },
+  "conservative": {
+    "policy": "mask_05",
+    "training_target_met": false,
+    "quality_service_eligible": true
+  },
+  "known_model": {
+    "0": {
+      "policy": "randomized",
+      "training_target_met": true,
+      "quality_service_eligible": true
+    },
+    "4": {
+      "policy": "randomized",
+      "training_target_met": true,
+      "quality_service_eligible": true
+    },
+    "8": {
+      "policy": "mask_05",
+      "training_target_met": false,
+      "quality_service_eligible": true
+    },
+    "16": {
+      "policy": "mask_07",
+      "training_target_met": true,
+      "quality_service_eligible": true
+    },
+    "24": {
+      "policy": "randomized",
+      "training_target_met": true,
+      "quality_service_eligible": true
+    }
+  },
+  "training_summary": {
+    "0": {
+      "common_0": {
+        "herding": 1.3958333333333335,
+        "delta": 0.0,
+        "quality_worst": 0.01572061936953375,
+        "deadline_completion": 0.9860026041666666,
+        "peak": 0.9921875,
+        "mean_cost": 21.1248785254503
+      },
+      "common_1": {
+        "herding": 1.484375,
+        "delta": 0.0,
+        "quality_worst": 0.010426111545538262,
+        "deadline_completion": 0.9876302083333333,
+        "peak": 0.9544270833333334,
+        "mean_cost": 19.941671876585637
+      },
+      "common_2": {
+        "herding": 1.46484375,
+        "delta": 0.0,
+        "quality_worst": 0.01129097300138093,
+        "deadline_completion": 0.98828125,
+        "peak": 0.9322916666666667,
+        "mean_cost": 19.23874766505311
+      },
+      "common_3": {
+        "herding": 1.3424479166666667,
+        "delta": 0.0,
+        "quality_worst": 0.012051628986247048,
+        "deadline_completion": 0.982421875,
+        "peak": 0.9401041666666666,
+        "mean_cost": 20.282210298017063
+      },
+      "common_4": {
+        "herding": 1.4752604166666667,
+        "delta": 0.0,
+        "quality_worst": 0.0106895086352044,
+        "deadline_completion": 0.9851888020833333,
+        "peak": 0.9205729166666667,
+        "mean_cost": 19.189186658481287
+      },
+      "common_5": {
+        "herding": 1.3828125,
+        "delta": 0.0,
+        "quality_worst": 0.012648159744296327,
+        "deadline_completion": 0.97607421875,
+        "peak": 0.9270833333333334,
+        "mean_cost": 19.3674053420664
+      },
+      "frozen": {
+        "herding": 0.0,
+        "delta": 0.0,
+        "quality_worst": 0.07416862302866399,
+        "deadline_completion": 0.9996744791666666,
+        "peak": 0.9921875,
+        "mean_cost": 21.637490077056558
+      },
+      "full": {
+        "herding": 1.30859375,
+        "delta": 0.0,
+        "quality_worst": 0.002933188943232559,
+        "deadline_completion": 0.9933268229166666,
+        "peak": 0.8645833333333334,
+        "mean_cost": 16.728562117653148
+      },
+      "mask_01": {
+        "herding": 1.2916666666666665,
+        "delta": 0.041666666666666664,
+        "quality_worst": 0.010959621955813372,
+        "deadline_completion": 0.9881184895833333,
+        "peak": 0.9361979166666667,
+        "mean_cost": 18.66132763657588
+      },
+      "mask_02": {
+        "herding": 1.31640625,
+        "delta": 0.08333333333333333,
+        "quality_worst": 0.010834180684045578,
+        "deadline_completion": 0.9903971354166666,
+        "peak": 0.8919270833333333,
+        "mean_cost": 17.933110383566607
+      },
+      "mask_03": {
+        "herding": 1.25390625,
+        "delta": 0.125,
+        "quality_worst": 0.008833264174238006,
+        "deadline_completion": 0.9889322916666667,
+        "peak": 0.8684895833333333,
+        "mean_cost": 17.34102672351031
+      },
+      "mask_04": {
+        "herding": 1.2786458333333333,
+        "delta": 0.125,
+        "quality_worst": 0.011270828610795019,
+        "deadline_completion": 0.9856770833333333,
+        "peak": 0.91015625,
+        "mean_cost": 18.037767250569598
+      },
+      "mask_05": {
+        "herding": 1.2044270833333333,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.008172763329071582,
+        "deadline_completion": 0.9874674479166666,
+        "peak": 0.8229166666666667,
+        "mean_cost": 16.864648987740658
+      },
+      "mask_06": {
+        "herding": 1.2434895833333333,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.008472867800267396,
+        "deadline_completion": 0.9908854166666666,
+        "peak": 0.8411458333333334,
+        "mean_cost": 16.851878629942455
+      },
+      "mask_07": {
+        "herding": 1.1809895833333333,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.00833399712416993,
+        "deadline_completion": 0.9908854166666667,
+        "peak": 0.83203125,
+        "mean_cost": 16.60407956134433
+      },
+      "mask_08": {
+        "herding": 1.2760416666666665,
+        "delta": 0.08333333333333333,
+        "quality_worst": 0.012581307985560168,
+        "deadline_completion": 0.9860026041666666,
+        "peak": 0.9153645833333333,
+        "mean_cost": 18.263973951846786
+      },
+      "mask_09": {
+        "herding": 1.2330729166666665,
+        "delta": 0.125,
+        "quality_worst": 0.008340562163728492,
+        "deadline_completion": 0.9905598958333334,
+        "peak": 0.8580729166666667,
+        "mean_cost": 16.926505467959046
+      },
+      "mask_10": {
+        "herding": 1.2513020833333335,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.009172350728848182,
+        "deadline_completion": 0.98779296875,
+        "peak": 0.82421875,
+        "mean_cost": 16.63319344090273
+      },
+      "mask_11": {
+        "herding": 1.2473958333333335,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.008138629956843795,
+        "deadline_completion": 0.9864908854166666,
+        "peak": 0.8411458333333334,
+        "mean_cost": 16.68938911251282
+      },
+      "mask_12": {
+        "herding": 1.2109375,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.00910350562875727,
+        "deadline_completion": 0.99755859375,
+        "peak": 0.8359375,
+        "mean_cost": 16.454379597884213
+      },
+      "mask_13": {
+        "herding": 1.1783854166666667,
+        "delta": 0.25,
+        "quality_worst": 0.007927750794490932,
+        "deadline_completion": 0.9899088541666667,
+        "peak": 0.8190104166666667,
+        "mean_cost": 16.231556503292097
+      },
+      "mask_14": {
+        "herding": 1.2395833333333335,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.008657373155002746,
+        "deadline_completion": 0.9886067708333333,
+        "peak": 0.8528645833333334,
+        "mean_cost": 16.724961110067166
+      },
+      "mask_15": {
+        "herding": 1.2083333333333333,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.00816690359032676,
+        "deadline_completion": 0.9905598958333333,
+        "peak": 0.8203125,
+        "mean_cost": 16.522959033996706
+      },
+      "public_only": {
+        "herding": 0.8268229166666666,
+        "delta": 0.0,
+        "quality_worst": 0.05764490652446158,
+        "deadline_completion": 0.9991861979166667,
+        "peak": 0.9375,
+        "mean_cost": 20.139559785898406
+      },
+      "randomized": {
+        "herding": 1.2109375,
+        "delta": 0.0,
+        "quality_worst": 0.008260870768998924,
+        "deadline_completion": 0.99169921875,
+        "peak": 0.7838541666666667,
+        "mean_cost": 16.180470409843313
+      },
+      "staggered": {
+        "herding": 1.2265625,
+        "delta": 0.25,
+        "quality_worst": 0.008097422168565434,
+        "deadline_completion": 0.9890950520833333,
+        "peak": 0.80078125,
+        "mean_cost": 16.371281170807148
+      }
+    },
+    "4": {
+      "common_0": {
+        "herding": 1.5533854166666667,
+        "delta": 0.0,
+        "quality_worst": 0.02560900227232738,
+        "deadline_completion": 0.9969075520833333,
+        "peak": 0.9856770833333334,
+        "mean_cost": 22.841584308131296
+      },
+      "common_1": {
+        "herding": 1.5299479166666665,
+        "delta": 0.0,
+        "quality_worst": 0.02227222437526969,
+        "deadline_completion": 0.9933268229166666,
+        "peak": 0.984375,
+        "mean_cost": 22.353724799307596
+      },
+      "common_2": {
+        "herding": 1.5377604166666665,
+        "delta": 0.0,
+        "quality_worst": 0.019943121907251594,
+        "deadline_completion": 0.9957682291666667,
+        "peak": 0.9765625,
+        "mean_cost": 21.224734654562436
+      },
+      "common_3": {
+        "herding": 1.54296875,
+        "delta": 0.0,
+        "quality_worst": 0.019684590787446016,
+        "deadline_completion": 0.99609375,
+        "peak": 0.9817708333333333,
+        "mean_cost": 21.71366973488561
+      },
+      "common_4": {
+        "herding": 1.5169270833333335,
+        "delta": 0.0,
+        "quality_worst": 0.020027755047775972,
+        "deadline_completion": 0.9969075520833333,
+        "peak": 0.98046875,
+        "mean_cost": 21.44621368126135
+      },
+      "common_5": {
+        "herding": 1.59765625,
+        "delta": 0.0,
+        "quality_worst": 0.02047276263279068,
+        "deadline_completion": 0.99755859375,
+        "peak": 0.9778645833333334,
+        "mean_cost": 21.111003917164446
+      },
+      "frozen": {
+        "herding": 0.0,
+        "delta": 0.0,
+        "quality_worst": 0.05709941259191478,
+        "deadline_completion": 0.9996744791666666,
+        "peak": 0.9921875,
+        "mean_cost": 21.637490077056558
+      },
+      "full": {
+        "herding": 1.69140625,
+        "delta": 0.0,
+        "quality_worst": 0.002219899845661151,
+        "deadline_completion": 0.9978841145833333,
+        "peak": 0.9778645833333334,
+        "mean_cost": 20.930077224230736
+      },
+      "mask_01": {
+        "herding": 1.4244791666666667,
+        "delta": 0.041666666666666664,
+        "quality_worst": 0.022583716055684537,
+        "deadline_completion": 0.9915364583333333,
+        "peak": 0.9622395833333333,
+        "mean_cost": 21.009670479358682
+      },
+      "mask_02": {
+        "herding": 1.3723958333333335,
+        "delta": 0.08333333333333333,
+        "quality_worst": 0.021025286365548367,
+        "deadline_completion": 0.9943033854166667,
+        "peak": 0.9518229166666667,
+        "mean_cost": 19.807695471033973
+      },
+      "mask_03": {
+        "herding": 1.24609375,
+        "delta": 0.125,
+        "quality_worst": 0.016669870690358773,
+        "deadline_completion": 0.9943033854166666,
+        "peak": 0.9283854166666666,
+        "mean_cost": 18.896091664554895
+      },
+      "mask_04": {
+        "herding": 1.41796875,
+        "delta": 0.125,
+        "quality_worst": 0.01788792565147833,
+        "deadline_completion": 0.9978841145833333,
+        "peak": 0.9375,
+        "mean_cost": 19.46352279058777
+      },
+      "mask_05": {
+        "herding": 1.32421875,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.016233221372631335,
+        "deadline_completion": 0.9983723958333333,
+        "peak": 0.921875,
+        "mean_cost": 18.795051108932572
+      },
+      "mask_06": {
+        "herding": 1.3177083333333335,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.015035497628696876,
+        "deadline_completion": 0.9973958333333333,
+        "peak": 0.9440104166666667,
+        "mean_cost": 18.425650242212193
+      },
+      "mask_07": {
+        "herding": 1.2473958333333333,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.015384899093308443,
+        "deadline_completion": 0.9978841145833334,
+        "peak": 0.90625,
+        "mean_cost": 17.98028802196528
+      },
+      "mask_08": {
+        "herding": 1.4140625,
+        "delta": 0.08333333333333333,
+        "quality_worst": 0.019467752302920326,
+        "deadline_completion": 0.9972330729166666,
+        "peak": 0.9661458333333333,
+        "mean_cost": 19.66304381083894
+      },
+      "mask_09": {
+        "herding": 1.3385416666666665,
+        "delta": 0.125,
+        "quality_worst": 0.015807642716763663,
+        "deadline_completion": 0.9973958333333333,
+        "peak": 0.94140625,
+        "mean_cost": 19.167360014387526
+      },
+      "mask_10": {
+        "herding": 1.3098958333333333,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.01575654850637258,
+        "deadline_completion": 0.9973958333333333,
+        "peak": 0.9427083333333333,
+        "mean_cost": 18.647260927004673
+      },
+      "mask_11": {
+        "herding": 1.2317708333333335,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.01381095023216113,
+        "deadline_completion": 0.9978841145833333,
+        "peak": 0.90625,
+        "mean_cost": 18.22181537271161
+      },
+      "mask_12": {
+        "herding": 1.2669270833333335,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.01624053388049796,
+        "deadline_completion": 0.998046875,
+        "peak": 0.9309895833333333,
+        "mean_cost": 18.21009150489645
+      },
+      "mask_13": {
+        "herding": 1.2552083333333335,
+        "delta": 0.25,
+        "quality_worst": 0.014801949889982204,
+        "deadline_completion": 0.99755859375,
+        "peak": 0.9375,
+        "mean_cost": 18.037586984614194
+      },
+      "mask_14": {
+        "herding": 1.265625,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.015121361727845617,
+        "deadline_completion": 0.9978841145833333,
+        "peak": 0.90234375,
+        "mean_cost": 18.27777327007332
+      },
+      "mask_15": {
+        "herding": 1.2174479166666665,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.015551036981584962,
+        "deadline_completion": 0.9964192708333333,
+        "peak": 0.9127604166666667,
+        "mean_cost": 18.21106364141962
+      },
+      "public_only": {
+        "herding": 0.9270833333333333,
+        "delta": 0.0,
+        "quality_worst": 0.04381045739314619,
+        "deadline_completion": 0.9993489583333333,
+        "peak": 0.9622395833333333,
+        "mean_cost": 20.155688787856555
+      },
+      "randomized": {
+        "herding": 1.2252604166666665,
+        "delta": 0.0,
+        "quality_worst": 0.0141187751554717,
+        "deadline_completion": 0.9973958333333333,
+        "peak": 0.9049479166666667,
+        "mean_cost": 17.85777342649057
+      },
+      "staggered": {
+        "herding": 1.2447916666666665,
+        "delta": 0.25,
+        "quality_worst": 0.014897911979643057,
+        "deadline_completion": 0.9983723958333333,
+        "peak": 0.9153645833333334,
+        "mean_cost": 18.057703112119633
+      }
+    },
+    "8": {
+      "common_0": {
+        "herding": 1.5716145833333335,
+        "delta": 0.0,
+        "quality_worst": 0.0189610787446622,
+        "deadline_completion": 0.9874674479166667,
+        "peak": 0.99609375,
+        "mean_cost": 23.96903554155002
+      },
+      "common_1": {
+        "herding": 1.6184895833333335,
+        "delta": 0.0,
+        "quality_worst": 0.017641347201634038,
+        "deadline_completion": 0.9871419270833333,
+        "peak": 0.9895833333333333,
+        "mean_cost": 22.77567794444771
+      },
+      "common_2": {
+        "herding": 1.4908854166666665,
+        "delta": 0.0,
+        "quality_worst": 0.01582566452952058,
+        "deadline_completion": 0.99267578125,
+        "peak": 0.9817708333333334,
+        "mean_cost": 21.517659244106817
+      },
+      "common_3": {
+        "herding": 1.50390625,
+        "delta": 0.0,
+        "quality_worst": 0.018683657347028416,
+        "deadline_completion": 0.9954427083333334,
+        "peak": 0.9830729166666667,
+        "mean_cost": 22.226325274300258
+      },
+      "common_4": {
+        "herding": 1.5104166666666667,
+        "delta": 0.0,
+        "quality_worst": 0.017853843637842766,
+        "deadline_completion": 0.99169921875,
+        "peak": 0.98046875,
+        "mean_cost": 21.784726861689542
+      },
+      "common_5": {
+        "herding": 1.5078125,
+        "delta": 0.0,
+        "quality_worst": 0.016306935525645615,
+        "deadline_completion": 0.9954427083333334,
+        "peak": 0.9622395833333333,
+        "mean_cost": 21.173886682573727
+      },
+      "frozen": {
+        "herding": 0.0,
+        "delta": 0.0,
+        "quality_worst": 0.07694658103362365,
+        "deadline_completion": 0.9996744791666666,
+        "peak": 0.9921875,
+        "mean_cost": 21.637490077056558
+      },
+      "full": {
+        "herding": 1.5807291666666665,
+        "delta": 0.0,
+        "quality_worst": 0.0026685809254337316,
+        "deadline_completion": 0.998046875,
+        "peak": 0.9583333333333334,
+        "mean_cost": 18.890562609497536
+      },
+      "mask_01": {
+        "herding": 1.5677083333333335,
+        "delta": 0.041666666666666664,
+        "quality_worst": 0.01641177139261171,
+        "deadline_completion": 0.98779296875,
+        "peak": 0.984375,
+        "mean_cost": 21.872624747201876
+      },
+      "mask_02": {
+        "herding": 1.48046875,
+        "delta": 0.08333333333333333,
+        "quality_worst": 0.01498086364352188,
+        "deadline_completion": 0.9931640625,
+        "peak": 0.9661458333333333,
+        "mean_cost": 20.89198554965423
+      },
+      "mask_03": {
+        "herding": 1.4544270833333333,
+        "delta": 0.125,
+        "quality_worst": 0.014224701496503685,
+        "deadline_completion": 0.9921875,
+        "peak": 0.96875,
+        "mean_cost": 20.187831441464496
+      },
+      "mask_04": {
+        "herding": 1.44921875,
+        "delta": 0.125,
+        "quality_worst": 0.015611911378426723,
+        "deadline_completion": 0.9939778645833333,
+        "peak": 0.9830729166666666,
+        "mean_cost": 20.494243809157624
+      },
+      "mask_05": {
+        "herding": 1.3307291666666667,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.0130350373120795,
+        "deadline_completion": 0.99169921875,
+        "peak": 0.95703125,
+        "mean_cost": 19.385676118182836
+      },
+      "mask_06": {
+        "herding": 1.4296875,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.01179660524929356,
+        "deadline_completion": 0.9921875,
+        "peak": 0.94921875,
+        "mean_cost": 19.177177786125174
+      },
+      "mask_07": {
+        "herding": 1.4375,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.012873534328803893,
+        "deadline_completion": 0.9905598958333333,
+        "peak": 0.9361979166666667,
+        "mean_cost": 18.904881915347516
+      },
+      "mask_08": {
+        "herding": 1.4049479166666667,
+        "delta": 0.08333333333333333,
+        "quality_worst": 0.017021146110070016,
+        "deadline_completion": 0.9938151041666667,
+        "peak": 0.98046875,
+        "mean_cost": 20.34692392113038
+      },
+      "mask_09": {
+        "herding": 1.3880208333333335,
+        "delta": 0.125,
+        "quality_worst": 0.01218694749320699,
+        "deadline_completion": 0.9918619791666667,
+        "peak": 0.95703125,
+        "mean_cost": 19.499800488002954
+      },
+      "mask_10": {
+        "herding": 1.4440104166666667,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.014295243328459412,
+        "deadline_completion": 0.99267578125,
+        "peak": 0.9466145833333333,
+        "mean_cost": 19.118066156123078
+      },
+      "mask_11": {
+        "herding": 1.4453125,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.012565640780604802,
+        "deadline_completion": 0.9933268229166667,
+        "peak": 0.9661458333333334,
+        "mean_cost": 19.158491342568475
+      },
+      "mask_12": {
+        "herding": 1.3697916666666665,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.013504066676625329,
+        "deadline_completion": 0.99462890625,
+        "peak": 0.93359375,
+        "mean_cost": 18.81966585415799
+      },
+      "mask_13": {
+        "herding": 1.4140625,
+        "delta": 0.25,
+        "quality_worst": 0.013086383609224192,
+        "deadline_completion": 0.9939778645833334,
+        "peak": 0.9466145833333334,
+        "mean_cost": 18.90222275702197
+      },
+      "mask_14": {
+        "herding": 1.4153645833333333,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.015262761726992558,
+        "deadline_completion": 0.99365234375,
+        "peak": 0.9453125,
+        "mean_cost": 18.827731269458425
+      },
+      "mask_15": {
+        "herding": 1.5052083333333335,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.014926377883167662,
+        "deadline_completion": 0.9934895833333333,
+        "peak": 0.9401041666666667,
+        "mean_cost": 18.94976224511344
+      },
+      "public_only": {
+        "herding": 0.9479166666666666,
+        "delta": 0.0,
+        "quality_worst": 0.060623824083304356,
+        "deadline_completion": 0.9991861979166666,
+        "peak": 0.921875,
+        "mean_cost": 19.526001283294903
+      },
+      "randomized": {
+        "herding": 1.4205729166666667,
+        "delta": 0.0,
+        "quality_worst": 0.013529976901785184,
+        "deadline_completion": 0.9951171875,
+        "peak": 0.9322916666666667,
+        "mean_cost": 18.747308746503503
+      },
+      "staggered": {
+        "herding": 1.4778645833333335,
+        "delta": 0.25,
+        "quality_worst": 0.01305318025249853,
+        "deadline_completion": 0.9900716145833333,
+        "peak": 0.9440104166666667,
+        "mean_cost": 18.855330298511177
+      }
+    },
+    "16": {
+      "common_0": {
+        "herding": 1.53125,
+        "delta": 0.0,
+        "quality_worst": 0.016170421402543933,
+        "deadline_completion": 0.9768880208333333,
+        "peak": 0.9973958333333334,
+        "mean_cost": 22.69775163452698
+      },
+      "common_1": {
+        "herding": 1.5442708333333335,
+        "delta": 0.0,
+        "quality_worst": 0.011545803247540704,
+        "deadline_completion": 0.9817708333333333,
+        "peak": 0.9830729166666667,
+        "mean_cost": 20.88454010400187
+      },
+      "common_2": {
+        "herding": 1.5638020833333333,
+        "delta": 0.0,
+        "quality_worst": 0.011532648200568527,
+        "deadline_completion": 0.9847005208333333,
+        "peak": 0.9700520833333334,
+        "mean_cost": 20.37393933322962
+      },
+      "common_3": {
+        "herding": 1.3958333333333335,
+        "delta": 0.0,
+        "quality_worst": 0.013108688546338777,
+        "deadline_completion": 0.9864908854166667,
+        "peak": 0.9557291666666666,
+        "mean_cost": 20.836132177843922
+      },
+      "common_4": {
+        "herding": 1.52734375,
+        "delta": 0.0,
+        "quality_worst": 0.011800231761628519,
+        "deadline_completion": 0.9778645833333333,
+        "peak": 0.9322916666666667,
+        "mean_cost": 20.216735756688298
+      },
+      "common_5": {
+        "herding": 1.483072916666667,
+        "delta": 0.0,
+        "quality_worst": 0.012545182575037353,
+        "deadline_completion": 0.982421875,
+        "peak": 0.95703125,
+        "mean_cost": 20.319964865320074
+      },
+      "frozen": {
+        "herding": 0.0,
+        "delta": 0.0,
+        "quality_worst": 0.07664738113263161,
+        "deadline_completion": 0.9996744791666666,
+        "peak": 0.9921875,
+        "mean_cost": 21.637490077056558
+      },
+      "full": {
+        "herding": 1.3828125,
+        "delta": 0.0,
+        "quality_worst": 0.0029634805563111414,
+        "deadline_completion": 0.99609375,
+        "peak": 0.8932291666666667,
+        "mean_cost": 17.049806152603974
+      },
+      "mask_01": {
+        "herding": 1.30859375,
+        "delta": 0.041666666666666664,
+        "quality_worst": 0.011851084824917847,
+        "deadline_completion": 0.9881184895833333,
+        "peak": 0.9635416666666667,
+        "mean_cost": 19.704729120527716
+      },
+      "mask_02": {
+        "herding": 1.3723958333333335,
+        "delta": 0.08333333333333333,
+        "quality_worst": 0.012089782268953138,
+        "deadline_completion": 0.9874674479166667,
+        "peak": 0.9205729166666667,
+        "mean_cost": 18.710638307530278
+      },
+      "mask_03": {
+        "herding": 1.3125,
+        "delta": 0.125,
+        "quality_worst": 0.009962222714700316,
+        "deadline_completion": 0.9842122395833333,
+        "peak": 0.9049479166666667,
+        "mean_cost": 18.38983114818329
+      },
+      "mask_04": {
+        "herding": 1.33984375,
+        "delta": 0.125,
+        "quality_worst": 0.011801206138630341,
+        "deadline_completion": 0.9931640625,
+        "peak": 0.9596354166666666,
+        "mean_cost": 18.789651225631125
+      },
+      "mask_05": {
+        "herding": 1.2552083333333335,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.009533681661856894,
+        "deadline_completion": 0.9864908854166666,
+        "peak": 0.9088541666666667,
+        "mean_cost": 18.023446208003243
+      },
+      "mask_06": {
+        "herding": 1.2825520833333335,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.009041139456570896,
+        "deadline_completion": 0.9856770833333333,
+        "peak": 0.9088541666666667,
+        "mean_cost": 17.678320169510627
+      },
+      "mask_07": {
+        "herding": 1.2395833333333335,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.00869991027233007,
+        "deadline_completion": 0.98583984375,
+        "peak": 0.89453125,
+        "mean_cost": 17.374624554502685
+      },
+      "mask_08": {
+        "herding": 1.3515625,
+        "delta": 0.08333333333333333,
+        "quality_worst": 0.01259213569835219,
+        "deadline_completion": 0.9851888020833333,
+        "peak": 0.95703125,
+        "mean_cost": 19.185663969255458
+      },
+      "mask_09": {
+        "herding": 1.2890625,
+        "delta": 0.125,
+        "quality_worst": 0.009266481438161916,
+        "deadline_completion": 0.9850260416666667,
+        "peak": 0.8984375,
+        "mean_cost": 17.907291493711632
+      },
+      "mask_10": {
+        "herding": 1.3046875,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.010332983612972,
+        "deadline_completion": 0.98583984375,
+        "peak": 0.8880208333333333,
+        "mean_cost": 17.707684518945406
+      },
+      "mask_11": {
+        "herding": 1.296875,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.009328993833748021,
+        "deadline_completion": 0.9855143229166667,
+        "peak": 0.8854166666666667,
+        "mean_cost": 17.388384093775556
+      },
+      "mask_12": {
+        "herding": 1.2330729166666665,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.010086877346601016,
+        "deadline_completion": 0.9894205729166667,
+        "peak": 0.8997395833333334,
+        "mean_cost": 17.361352298243858
+      },
+      "mask_13": {
+        "herding": 1.2552083333333333,
+        "delta": 0.25,
+        "quality_worst": 0.00902702190112639,
+        "deadline_completion": 0.9918619791666666,
+        "peak": 0.8645833333333334,
+        "mean_cost": 17.075186203598314
+      },
+      "mask_14": {
+        "herding": 1.2486979166666665,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.010167051361081113,
+        "deadline_completion": 0.98779296875,
+        "peak": 0.87109375,
+        "mean_cost": 17.399572396825732
+      },
+      "mask_15": {
+        "herding": 1.259114583333333,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.00919776814541657,
+        "deadline_completion": 0.9908854166666666,
+        "peak": 0.8776041666666667,
+        "mean_cost": 17.313081323494657
+      },
+      "public_only": {
+        "herding": 0.8541666666666667,
+        "delta": 0.0,
+        "quality_worst": 0.06014461599062848,
+        "deadline_completion": 0.9993489583333334,
+        "peak": 0.9231770833333333,
+        "mean_cost": 20.004274814625745
+      },
+      "randomized": {
+        "herding": 1.25390625,
+        "delta": 0.0,
+        "quality_worst": 0.008993032674457788,
+        "deadline_completion": 0.98583984375,
+        "peak": 0.8984375,
+        "mean_cost": 17.238886900025577
+      },
+      "staggered": {
+        "herding": 1.25390625,
+        "delta": 0.25,
+        "quality_worst": 0.0086396300881448,
+        "deadline_completion": 0.9928385416666666,
+        "peak": 0.8684895833333334,
+        "mean_cost": 17.30249580934995
+      }
+    },
+    "24": {
+      "common_0": {
+        "herding": 1.4309895833333335,
+        "delta": 0.0,
+        "quality_worst": 0.01606998676664195,
+        "deadline_completion": 0.9856770833333334,
+        "peak": 0.9934895833333333,
+        "mean_cost": 21.458338064211784
+      },
+      "common_1": {
+        "herding": 1.4947916666666667,
+        "delta": 0.0,
+        "quality_worst": 0.010745928837242744,
+        "deadline_completion": 0.9825846354166666,
+        "peak": 0.9635416666666667,
+        "mean_cost": 20.065386092777633
+      },
+      "common_2": {
+        "herding": 1.48828125,
+        "delta": 0.0,
+        "quality_worst": 0.011641561926735565,
+        "deadline_completion": 0.9886067708333334,
+        "peak": 0.9375,
+        "mean_cost": 19.366377324530028
+      },
+      "common_3": {
+        "herding": 1.3307291666666665,
+        "delta": 0.0,
+        "quality_worst": 0.012326211035582898,
+        "deadline_completion": 0.9796549479166667,
+        "peak": 0.9440104166666666,
+        "mean_cost": 20.330986304614747
+      },
+      "common_4": {
+        "herding": 1.453125,
+        "delta": 0.0,
+        "quality_worst": 0.010568833334032052,
+        "deadline_completion": 0.98681640625,
+        "peak": 0.9309895833333334,
+        "mean_cost": 19.294732965033813
+      },
+      "common_5": {
+        "herding": 1.41796875,
+        "delta": 0.0,
+        "quality_worst": 0.01255794635717342,
+        "deadline_completion": 0.9778645833333333,
+        "peak": 0.9192708333333333,
+        "mean_cost": 19.409195820481298
+      },
+      "frozen": {
+        "herding": 0.0,
+        "delta": 0.0,
+        "quality_worst": 0.07446804928852263,
+        "deadline_completion": 0.9996744791666666,
+        "peak": 0.9921875,
+        "mean_cost": 21.637490077056558
+      },
+      "full": {
+        "herding": 1.3138020833333335,
+        "delta": 0.0,
+        "quality_worst": 0.0029975478805702115,
+        "deadline_completion": 0.994140625,
+        "peak": 0.8619791666666666,
+        "mean_cost": 16.624142183843006
+      },
+      "mask_01": {
+        "herding": 1.2916666666666667,
+        "delta": 0.041666666666666664,
+        "quality_worst": 0.011179575173855913,
+        "deadline_completion": 0.9864908854166667,
+        "peak": 0.9231770833333334,
+        "mean_cost": 18.71940840426703
+      },
+      "mask_02": {
+        "herding": 1.33984375,
+        "delta": 0.08333333333333333,
+        "quality_worst": 0.011134503071235138,
+        "deadline_completion": 0.9856770833333333,
+        "peak": 0.8854166666666666,
+        "mean_cost": 18.023680563670354
+      },
+      "mask_03": {
+        "herding": 1.2591145833333333,
+        "delta": 0.125,
+        "quality_worst": 0.009083626789866735,
+        "deadline_completion": 0.9892578125,
+        "peak": 0.8815104166666667,
+        "mean_cost": 17.502423784021
+      },
+      "mask_04": {
+        "herding": 1.2994791666666667,
+        "delta": 0.125,
+        "quality_worst": 0.011508390092649198,
+        "deadline_completion": 0.9856770833333333,
+        "peak": 0.91015625,
+        "mean_cost": 18.138041136701133
+      },
+      "mask_05": {
+        "herding": 1.2317708333333335,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.008267794111550032,
+        "deadline_completion": 0.9845377604166667,
+        "peak": 0.8515625,
+        "mean_cost": 17.034398087847045
+      },
+      "mask_06": {
+        "herding": 1.2408854166666665,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.008447234994037146,
+        "deadline_completion": 0.98974609375,
+        "peak": 0.8489583333333334,
+        "mean_cost": 16.920781930275275
+      },
+      "mask_07": {
+        "herding": 1.2005208333333333,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.008582617170596146,
+        "deadline_completion": 0.9918619791666667,
+        "peak": 0.8385416666666667,
+        "mean_cost": 16.63610144881592
+      },
+      "mask_08": {
+        "herding": 1.2734375,
+        "delta": 0.08333333333333333,
+        "quality_worst": 0.012723425177207159,
+        "deadline_completion": 0.986328125,
+        "peak": 0.9166666666666667,
+        "mean_cost": 18.270928226720308
+      },
+      "mask_09": {
+        "herding": 1.2526041666666665,
+        "delta": 0.125,
+        "quality_worst": 0.008579249591493913,
+        "deadline_completion": 0.9853515625,
+        "peak": 0.8541666666666667,
+        "mean_cost": 16.997491651511336
+      },
+      "mask_10": {
+        "herding": 1.2669270833333335,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.009627332172048862,
+        "deadline_completion": 0.982421875,
+        "peak": 0.85546875,
+        "mean_cost": 16.77345682818077
+      },
+      "mask_11": {
+        "herding": 1.2578125,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.00858695430101184,
+        "deadline_completion": 0.9876302083333333,
+        "peak": 0.8528645833333334,
+        "mean_cost": 16.74686987466272
+      },
+      "mask_12": {
+        "herding": 1.2526041666666667,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.009604245087579507,
+        "deadline_completion": 0.9908854166666667,
+        "peak": 0.8229166666666666,
+        "mean_cost": 16.60513427022119
+      },
+      "mask_13": {
+        "herding": 1.2096354166666665,
+        "delta": 0.25,
+        "quality_worst": 0.008337458132900568,
+        "deadline_completion": 0.9899088541666667,
+        "peak": 0.828125,
+        "mean_cost": 16.345328279263146
+      },
+      "mask_14": {
+        "herding": 1.2434895833333335,
+        "delta": 0.20833333333333334,
+        "quality_worst": 0.009253178615354091,
+        "deadline_completion": 0.9860026041666666,
+        "peak": 0.8580729166666666,
+        "mean_cost": 16.699205636616206
+      },
+      "mask_15": {
+        "herding": 1.20703125,
+        "delta": 0.16666666666666666,
+        "quality_worst": 0.00858693225902352,
+        "deadline_completion": 0.98974609375,
+        "peak": 0.8346354166666667,
+        "mean_cost": 16.568065151269586
+      },
+      "public_only": {
+        "herding": 0.8346354166666666,
+        "delta": 0.0,
+        "quality_worst": 0.05799212442245593,
+        "deadline_completion": 0.9991861979166667,
+        "peak": 0.9322916666666667,
+        "mean_cost": 20.097220274302224
+      },
+      "randomized": {
+        "herding": 1.21875,
+        "delta": 0.0,
+        "quality_worst": 0.00865445632895821,
+        "deadline_completion": 0.9905598958333334,
+        "peak": 0.79296875,
+        "mean_cost": 16.193820128141674
+      },
+      "staggered": {
+        "herding": 1.2526041666666665,
+        "delta": 0.25,
+        "quality_worst": 0.008329158909186746,
+        "deadline_completion": 0.9884440104166667,
+        "peak": 0.8333333333333334,
+        "mean_cost": 16.518866268264397
+      }
+    }
+  },
+  "best_common_training": "randomized",
+  "selection_note": "Training means only; policies outside the quality/service screen are never called eligible. If no H-feasible policy exists, report minimax fallback explicitly. Finite candidate enumeration is not an analytical certificate."
+}

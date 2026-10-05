@@ -1,0 +1,61 @@
+{
+  "model": {
+    "n": 24,
+    "groups": 4,
+    "horizon": 42,
+    "deadline": 30,
+    "demand": 8,
+    "state_levels": 5,
+    "period": 6,
+    "persistence": 0.65,
+    "physical_noise": 0.08,
+    "congestion": 3.0,
+    "pressure_cost": 1.0,
+    "energy_cost": 0.15,
+    "holding_cost": 0.01,
+    "overdue_cost": 0.5,
+    "terminal_cost": 8.0,
+    "discount": 0.98,
+    "prior_mean": 0.4,
+    "prior_strength": 3.0,
+    "temperature": 0.025,
+    "heterogeneity": 0.03,
+    "initial_state": 1
+  },
+  "pilot_index": 17,
+  "pilot_selection": "Max mean common-minus-staggered H on pilot seeds101:113; period6; staggered deadline completion>=0.98 and worst-agent average gap<=0.04.",
+  "seeds": {
+    "train": [
+      201,
+      233
+    ],
+    "calibration": [
+      401,
+      449
+    ],
+    "evaluation": [
+      1001,
+      1097
+    ]
+  },
+  "memories": [
+    0,
+    4,
+    8,
+    16,
+    24
+  ],
+  "empirical_target": {
+    "herding_mean": 1.25,
+    "quality_worst_mean": 0.04,
+    "deadline_completion_mean": 0.98
+  },
+  "target_note": "Pilot-informed empirical mean targets. Not a high-probability certificate. Fixed before train/calibration/evaluation.",
+  "detector": {
+    "batch_size": 4,
+    "alpha": 0.1,
+    "calibration_unit": "four independent reset episodes"
+  },
+  "raw_note": "Every evaluation trajectory saved, including failures; frozen counterfactual shares exogenous and action uniforms.",
+  "model_sha256": "7d702f06cd75d51302153c48eac4307850e02cdafee306c2036d65fc0ad6c0f2"
+}
