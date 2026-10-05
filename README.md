@@ -4,6 +4,10 @@ Reproducible numerical experiments in a synthetic, discrete-action stochastic re
 
 The proposal's Figure 1 is `figures/t1-mechanism-evidence.pdf`. Its two panels show action-value gaps and collective activation from the same matched episode. The original five supporting figures remain available.
 
+## Download the code and saved data
+
+Download the source code and `results.zip` from the [v1.0.0 release](https://github.com/sohamdas-dev/algorithmic-herding-experiments/releases/tag/v1.0.0). Extract the source archive, then extract `results.zip` into that folder. The resulting `results/` directory should sit beside `src/`, `configs/`, and `reproduce.py`. Saved data are required for plotting and replay verification.
+
 ## Install
 
 Run from this repository's root. The recorded environment uses Python 3.13 and the exact versions in `requirements-lock.txt`.
@@ -95,10 +99,4 @@ The supporting mismatch experiment does not reliably restore performance through
 - `src/model.py`: simulator and planning computations.
 - `tests/`: Bellman recursion checked against exhaustive recursion, transition probabilities, conservation, record handling, and selection checks.
 - `results/raw/evaluation/`: all 480 evaluation archives, including failures and all tested policies.
-- `manifest.json`: SHA-256 file inventory and environment; regenerate with `python src/manifest.py` after final release preparation.
-
-## GitHub release and proposal citation
-
-Publish this folder as the repository root, excluding `.venv`, caches, and local temporary files. Keep the locked config, source, tests, analysis scripts, audit script, and documentation together. Include saved evaluation data in the repository or a versioned release archive so the fast plotting command works. The existing raw results occupy about 138 MB in total. Choose a license before release; this package does not assert an unapproved license.
-
-Once the repository exists, make a versioned release and cite its verified URL, tag, and authors (or an archived release DOI). Do not cite a placeholder URL. The proposal's technical footnote can then point to that release for parameters, code, and reproduction instructions while the main text retains the model, learner, comparison, sample size, and limitations. No repository has been published by these scripts.
+- `manifest.json`: SHA-256 inventory and environment for the audited package. Subsequent documentation edits may differ from that snapshot; numerical replay checks validate the simulation outputs.
